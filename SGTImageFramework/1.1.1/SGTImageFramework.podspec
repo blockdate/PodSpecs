@@ -54,9 +54,6 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "吴磊" => "w.leo.sagittarius@gmail.com" }
-  # Or just: s.author    = "吴磊"
-  # s.authors            = { "吴磊" => "869938879@qq.com" }
-  # s.social_media_url   = "http://twitter.com/吴磊"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -94,7 +91,7 @@ Pod::Spec.new do |s|
   s.source_files  = "Source", "Source/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Source/SGTImagePicker/**/*.h", "Source/ImageBrowser/CorePhotoBroswerVC/**/*.h", "Source/SDWebImage/**/*.h"
+  s.public_header_files = "Source/SGTImageFramework.h", "Source/SGTImagePicker/**/*.h", "Source/ImageBrowser/CorePhotoBroswerVC/**/*.h", "Source/SDWebImage/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
