@@ -96,7 +96,8 @@ Pod::Spec.new do |s|
                           "Source/ImageBrowser/CorePhotoBroswerVC/**/*.h", 
                           "Source/SDWebImage/**/*.h",
                           "Source/UIImage/*.h",
-                          "Source/Category/ALAssetsLibrary/*.h"
+                          "Source/Category/ALAssetsLibrary/*.h",
+                          "Source/Category/NSString/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
