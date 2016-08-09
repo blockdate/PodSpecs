@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SGTImageFramework"
-  s.version      = "0.1.1"
+  s.version      = "0.0.2"
   s.summary      = "This is a private pod sp. provide image picker and viewer function"
 
   # This description is used to generate tags and improve search results.
@@ -54,9 +54,6 @@ Pod::Spec.new do |s|
   #
 
   s.author             = { "吴磊" => "w.leo.sagittarius@gmail.com" }
-  # Or just: s.author    = "吴磊"
-  # s.authors            = { "吴磊" => "869938879@qq.com" }
-  # s.social_media_url   = "http://twitter.com/吴磊"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -94,7 +91,12 @@ Pod::Spec.new do |s|
   s.source_files  = "Source", "Source/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Source/**/*.h"
+  s.public_header_files = "Source/SGTImageFramework.h", 
+                          "Source/SGTImagePicker/**/*.h", 
+                          "Source/ImageBrowser/CorePhotoBroswerVC/**/*.h", 
+                          "Source/SDWebImage/**/*.h",
+                          "Source/UIImage/*.h",
+                          "Source/Category/ALAssetsLibrary/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -107,7 +109,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
-  s.resources = 'Source/**/*.{png,pdf,xib,bundle}'
+  s.resources = 'Source/**/*.{png,pdf,xib,bundle,strings}'
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
 
@@ -118,7 +120,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "UIKit"
+  s.frameworks = "UIKit", "CoreGraphics"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
@@ -135,6 +137,5 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency 'Masonry', '~> 0.6.3'
   s.dependency 'SDWebImage', '~> 3.7.3'
-  # s.dependency 'ReactiveCocoa', '~> 2.5'
 
 end
