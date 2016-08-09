@@ -91,7 +91,12 @@ Pod::Spec.new do |s|
   s.source_files  = "Source", "Source/**/*.{h,m}"
   # s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "Source/SGTImageFramework.h", "Source/SGTImagePicker/**/*.h", "Source/ImageBrowser/CorePhotoBroswerVC/**/*.h", "Source/SDWebImage/**/*.h"
+  s.public_header_files = "Source/SGTImageFramework.h", 
+                          "Source/SGTImagePicker/**/*.h", 
+                          "Source/ImageBrowser/CorePhotoBroswerVC/**/*.h", 
+                          "Source/SDWebImage/**/*.h",
+                          "Source/UIImage/*.h",
+                          "Source/Category/ALAssetsLibrary/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
