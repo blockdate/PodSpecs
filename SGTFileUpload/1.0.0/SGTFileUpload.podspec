@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SGTFileUpload"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "This is a private pod sp. provide Network function."
 
   # This description is used to generate tags and improve search results.
