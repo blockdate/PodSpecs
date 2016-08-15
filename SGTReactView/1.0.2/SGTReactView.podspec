@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   s.dependency 'SGTImageFramework'
   s.dependency 'SGTFileUpload'
   s.dependency 'MJRefresh_S'
-  s.dependency 'MBProgressHUD', '~> 0.9.1'
-  s.dependency 'DZNEmptyDataSet', '~> 1.7.2'
-  s.dependency 'CocoaLumberjack', '~> 2.0.3'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'CocoaLumberjack'
   s.dependency 'SnapKit'
 end
