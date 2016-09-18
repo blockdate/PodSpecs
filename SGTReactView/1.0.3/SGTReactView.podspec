@@ -24,5 +24,4 @@ Pod::Spec.new do |s|
   s.dependency 'MBProgressHUD'
   s.dependency 'DZNEmptyDataSet'
   s.dependency 'CocoaLumberjack'
-  s.dependency 'SnapKit'
 end
