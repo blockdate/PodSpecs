@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   This is a private Podspec. Provide network function. Base on AFNetworking and ReactiveCocoa
                    DESC
 
-  s.homepage     = "https://github.com/blockdate/SGTNetFramework"
+  s.homepage     = "https://blockdate@bitbucket.org/sgtfundation/sgtnetframework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/blockdate/SGTNetFramework.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://bitbucket.org/sgtfundation/sgtnetframework.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

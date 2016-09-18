@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
                   ImagePicker ImageViewer .This is a private pod sp. provide image picker and viewer function
                    DESC
 
-  s.homepage     = "https://github.com/blockdate/SGTImageFrameWork"
+  s.homepage     = "https://blockdate@bitbucket.org/sgtfundation/sgtimageframework"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/blockdate/SGTImageFrameWork.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://bitbucket.org/sgtfundation/sgtimageframework.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   This is a private Podspec. Provide SGTUIKit function. Base on ReactiveCocoa
                    DESC
 
-  s.homepage     = "https://github.com/blockdate/SGTUIKit"
+  s.homepage     = "https://bitbucket.org/sgtfundation/sgtuikit.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/blockdate/SGTUIKit.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://bitbucket.org/sgtfundation/sgtuikit.git", :tag => s.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

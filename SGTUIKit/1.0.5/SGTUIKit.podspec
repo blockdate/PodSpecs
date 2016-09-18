@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   This is a private Podspec. Provide SGTUIKit function. Base on ReactiveCocoa
                    DESC
 
-  s.homepage     = "https://github.com/blockdate/SGTUIKit"
+  s.homepage     = "https://bitbucket.org/sgtfundation/sgtuikit.git"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "吴磊" => "w.leo.sagittarius@gmail.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/blockdate/SGTUIKit.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://bitbucket.org/sgtfundation/sgtuikit.git", :tag => s.version.to_s }
   s.source_files  = "Source", "Source/**/*.{h,m}"
   s.public_header_files = "Source/**/*.h"
   s.frameworks = "Foundation", "UIKit"
