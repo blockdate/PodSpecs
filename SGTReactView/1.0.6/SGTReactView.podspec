@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SGTReactView"
-  s.version      = "1.0.2"
+  s.version      = "1.0.6"
   s.summary      = "This is a private pod sp. provide SGTReactView function."
 
   s.description  = <<-DESC
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://bitbucket.org/sgtfundation/sgtreactview"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "吴磊" => "w.leo.sagittarius@gmail.com" }
-  s.source       = { :git => "https://blockdate@bitbucket.org/sgtfundation/sgtreactview.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://bitbucket.org/sgtfundation/sgtreactview.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   
