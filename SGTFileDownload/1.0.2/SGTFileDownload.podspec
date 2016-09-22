@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SGTFileDownload"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "This is a private pod sp. provide FileDownload function."
 
   s.description  = <<-DESC
