@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks = "Foundation", "UIKit"
   s.requires_arc = true
   
-  s.dependency 'ReactiveCocoa', '~> 2.5'
+  s.dependency 'ReactiveCocoa'
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
 end
