@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "LocalWebCached"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "This is a private pod sp. provide LocalWebCached function."
 
   s.description  = <<-DESC
