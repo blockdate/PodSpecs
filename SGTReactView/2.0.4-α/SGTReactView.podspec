@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SGTReactView"
-  s.version      = "2.0.4-α-debug"
+  s.version      = "2.0.4-α"
   s.summary      = "This is a private pod sp. provide SGTReactView function."
 
   s.description  = <<-DESC
