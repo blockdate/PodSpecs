@@ -27,4 +27,5 @@ Pod::Spec.new do |s|
   s.dependency 'DZNEmptyDataSet', '~> 1.7.2'
   s.dependency 'CocoaLumberjack', '~> 2.0.3'
   s.dependency 'ReactiveCocoa', '~> 2.5'
+  s.dependency 'Typhoon'
 end
