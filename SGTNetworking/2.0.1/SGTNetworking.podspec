@@ -26,8 +26,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Source", "Source/**/*.{h,m}"
 
-  #s.public_header_files = "Source/SGTNetManager.h", "Source/SGTNetConfig.h", "Source/RACAFNetworking/**/*.h"
-  s.public_header_files = "Source/**/*.h"
+  s.public_header_files = "Source/SGTNetManager.h", "Source/SGTNetConfig.h", "Source/RACAFNetworking/**/*.h", "Source/Category/**/*.h"
+
 
   s.frameworks = "Foundation", "UIKit"
 
