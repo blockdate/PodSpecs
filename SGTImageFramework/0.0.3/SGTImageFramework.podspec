@@ -1,4 +1,3 @@
-
 Pod::Spec.new do |s|
 
   s.name         = "SGTImageFramework"
@@ -24,8 +23,8 @@ Pod::Spec.new do |s|
 
   s.source_files  = "Source", "Source/**/*.{h,m}"
 
-  s.public_header_files = "Source/SGTImagePicker/**/*.h", "Source/ImageBrowser/CorePhotoBroswerVC/**/*.h", "Source/SDWebImage/**/*.h"
-
+#s.public_header_files = "Source/SGTImagePicker/**/*.h", "Source/ImageBrowser/CorePhotoBroswerVC/**/*.h", "Source/SDWebImage/**/*.h"
+  s.public_header_files = "Source/**/*.h"
 
 
   s.resources = 'Source/**/*.{png,pdf,xib,bundle,strings}'
