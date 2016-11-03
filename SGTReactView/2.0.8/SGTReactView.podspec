@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SGTReactView"
-  s.version      = "2.0.4-debug"
+  s.version      = "2.0.8"
   s.summary      = "This is a private pod sp. provide SGTReactView function."
 
   s.description  = <<-DESC
@@ -17,14 +17,18 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
 
   s.source_files  = "Source/**/*.{h,m,swift}"
-  s.resources = 'Resource/**/*.{png,pdf,xib,bundle,strings}'
+  s.resources = 'Resource/**/*.{png,pdf,xib,bundle,strings,plist}'
+
   s.dependency 'SGTNetworking'
   s.dependency 'SGTUIKit'
   s.dependency 'SGTImageFramework'
   s.dependency 'SGTFileUpload'
   s.dependency 'MJRefresh_S'
-  s.dependency 'MBProgressHUD', '~> 0.9.1'
-  s.dependency 'DZNEmptyDataSet', '~> 1.7.2'
-  s.dependency 'CocoaLumberjack', '~> 2.0.3'
-  s.dependency 'ReactiveCocoa', '~> 2.5'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'DZNEmptyDataSet'
+  s.dependency 'CocoaLumberjack'
+  s.dependency 'ReactiveObjC'
+  #s.dependency 'ReactiveSwift', '~> 1.0.0-alpha.3'
+  s.dependency 'Typhoon'
+
 end
