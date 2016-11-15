@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SGTImageFramework"
-  s.version      = "0.0.5"
+  s.version      = "0.0.6-debug"
   s.summary      = "This is a private pod sp. provide image picker and viewer function"
 
   s.description  = <<-DESC
@@ -38,5 +38,6 @@ Pod::Spec.new do |s|
 
   s.dependency 'Masonry'
   s.dependency 'SDWebImage'
-
+  s.dependency 'MBProgressHUD'
+  s.dependency 'pop'
 end
