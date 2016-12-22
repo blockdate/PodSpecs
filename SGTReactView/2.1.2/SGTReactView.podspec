@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.dependency 'MBProgressHUD'
   s.dependency 'DZNEmptyDataSet'
   s.dependency 'CocoaLumberjack'
-  s.dependency 'ReactiveObjC'
+  s.dependency 'ReactiveObjC', '~> 1.0.1'
   #s.dependency 'ReactiveSwift', '~> 1.0.0-alpha.3'
   s.dependency 'Typhoon'
 
