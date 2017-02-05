@@ -30,5 +30,5 @@ Pod::Spec.new do |s|
   s.dependency 'ReactiveObjC', '~> 1.0.1'
   #s.dependency 'ReactiveSwift', '~> 1.0.0-alpha.3'
   s.dependency 'Typhoon'
-
+  s.dependency 'SnapKit'
 end
